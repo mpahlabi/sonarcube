@@ -1,0 +1,95 @@
+[root@docker linux-x86-64]# history
+    1  cd /opt
+    2  ls
+    3  ls -al
+    4  chown -R sonarqube8
+    5  chown -R sonar:sonar sonarqube8
+    6  ls -al
+    7  chmod -R 755 sonarqube8/
+    8  ls -al
+    9  cd sonarqube8/
+   10  ls
+   11  ls -al
+   12  cd bin/
+   13  ls
+   14  cd linux-x86-64/
+   15  ls
+   16  ./sonar.sh start
+   17  ./sonar.sh status
+   18  netstat -tulpn LISTEN
+   19  netstat -tulpn |grep LISTEN
+   20  ./sonar.sh status
+   21  ./sonar.sh start
+   22  netstat -tulpn |grep LISTEN
+   23  df -h
+   24  netstat -tulpn |grep LISTEN
+   25  ./sonar.sh start
+   26  netstat -tulpn |grep LISTEN
+   27  ./sonar.sh status
+   28  netstat -tulpn |grep LISTEN
+   29  ./sonar.sh restart
+   30  netstat -tulpn |grep LISTEN
+   31  ./sonar.sh restart
+   32  netstat -tulpn |grep LISTEN
+   33  ifconfig
+   34  ./sonar.sh restart
+   35  ls
+   36  cd ..
+   37  ls
+   38  cd ..
+   39  ls
+   40  cd logs
+   41  ls
+   42  tail -f sonar.log
+   43  ls
+   44  cat sonar.log
+   45  yum install java
+   46  java -version
+   47  yum install java-11-openjdk
+   48  cd /opt
+   49  ls
+   50  cd sonarqube8/
+   51  ls
+   52  cd bin/linux-x86-64/
+   53  ls
+   54  ./sonar.sh start
+   55  ./sonar.sh status
+   56  java -version
+   57  yum remove openjdk
+   58  yum remove openjdk*
+   59  yum remove openjdk-1.8.0_242
+   60  yum remove
+   61  yum remove openjdk
+   62  yum -q openjdk
+   63  yum -query openjdk
+   64  yum list openjdk
+   65  yum remove java
+   66  java --version
+   67  java -version
+   68  yum remove java
+   69  java -version
+   70  reboot
+   71  chown -R root:root /opt/sonarqube8
+   72  chmod -R 755 /opt/sonarqube8/
+   73  cd /opt/sonarqube8/bin/linux-x86-64/
+   74  ls
+   75  ./sonar.sh start
+   76  ./sonar.sh status
+   77  vi sonar.sh
+   78  cd ..
+   79  chown -R sonar:sonar sonarqube8
+   80  ls -al sonarqube8/
+   81  chmod -R 755 sonarqube8
+   82  cd sonarqube8/bin/linux-x86-64/
+   83  ./sonar.sh start
+   84  ./sonar.sh status
+   85  ./sonar.sh start
+   86  java -version
+   87   sudo update-alternatives --config java
+   88  java -version -version
+   89  ./sonar.sh start
+   90  ./sonar.sh status
+   91  history
+   92  netstat -tulpn |grep LISTEN
+   93  history
+[root@docker linux-x86-64]#
